@@ -152,8 +152,9 @@ All models were evaluated using:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/nlp-disaster-tweets.git
-   cd nlp-disaster-tweets
+   git clone https://github.com/Kovalivska/disaster-tweet-classification.git
+   cd disaster-tweet-classification
+   
    ```
 
 2. Install dependencies:
@@ -181,8 +182,8 @@ All models were evaluated using:
 
 ## 👥 Contributors
 
-- [Your Name] – Data Scientist & Developer  
-- [Collaborator Name] – Research & Evaluation
+ Svitlana Kovalivska – Data Scientist & Developer  
+
 
 ---
 
