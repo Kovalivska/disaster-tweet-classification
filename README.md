@@ -1,14 +1,14 @@
-# 🌀 NLP with Disaster Tweets
+# NLP with Disaster Tweets
 
 ![Top Words](outputs/Twitt.png)
 
-## 📌 Project Overview
+## Project Overview
 
 This project focuses on classifying tweets to determine whether they refer to real-world disasters. The model enables improved emergency response, real-time crisis monitoring, and insights from social media data. It leverages a combination of classical machine learning and deep learning techniques, including hybrid models that incorporate both text and structured data inputs.
 
 ---
 
-## 🗂️ Table of Contents
+## Table of Contents
 
 - [Project Structure](#project-structure)
 - [Dataset Overview](#dataset-overview)
@@ -26,7 +26,7 @@ This project focuses on classifying tweets to determine whether they refer to re
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```plaintext
 project-root/
@@ -52,7 +52,7 @@ project-root/
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 - **Source**: Kaggle ([NLP with Disaster Tweets](https://www.kaggle.com/competitions/nlp-getting-started))
 - **Format**: `train.csv`
@@ -63,7 +63,7 @@ project-root/
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 - **Missing Values**:
   - `text` and `target`: None
@@ -76,7 +76,7 @@ project-root/
 
 ---
 
-## 🧹 Data Preprocessing
+## Data Preprocessing
 
 - Lowercased text
 - Removed punctuation, URLs, mentions, hashtags, stopwords
@@ -88,7 +88,7 @@ project-root/
 
 ---
 
-## 🧠 Modeling Approaches
+## Modeling Approaches
 
 ### 1. Text-Only Pipeline
 - **Input**: `text` column  
@@ -108,7 +108,7 @@ project-root/
 
 ---
 
-## 📈 Model Evaluation
+## Model Evaluation
 
 All models were evaluated using:
 - **Accuracy**
@@ -118,14 +118,14 @@ All models were evaluated using:
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 ### Model Comparison Radar Chart
 ![Model Comparison Radar Chart](outputs/Model%20Comparison%20Radar%20Chart.png)
 
 ---
 
-## 🔑 Key Findings
+## Key Findings
 
 - **Top classical model**: Logistic Regression
 - **Best recall**: BERT (0.77), BiLSTM (0.74)
@@ -136,7 +136,7 @@ All models were evaluated using:
 
 ---
 
-## ✅ Recommendations
+## Recommendations
 
 | Business Scenario                            | Recommended Model         | Reason                                                                 |
 |---------------------------------------------|----------------------------|------------------------------------------------------------------------|
@@ -148,7 +148,7 @@ All models were evaluated using:
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 1. Clone the repository:
    ```bash
@@ -164,7 +164,7 @@ All models were evaluated using:
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. **Launch Jupyter Notebook**:
    ```bash
@@ -180,13 +180,13 @@ All models were evaluated using:
 
 ---
 
-## 👥 Contributors
+## Contributors
 
  Svitlana Kovalivska – Data Scientist & Developer  
 
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
